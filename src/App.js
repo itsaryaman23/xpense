@@ -17,62 +17,62 @@ function App() {
   const [isEditEx, setIsEditEx] = useState(false);
   const [editId, setEditId] = useState(1);
   const [expenseData, setExpenseData] = useState([
-    {
-      amount: "234",
-      category: "Entertainment",
-      date: "November 14, 2024",
-      id: 1,
-      title: "one",
-    },
-    {
-      amount: "234",
-      category: "Entertainment",
-      date: "November 14, 2024",
-      id: 2,
-      title: "two",
-    },
-    {
-      amount: "234",
-      category: "Entertainment",
-      date: "November 14, 2024",
-      id: 3,
-      title: "three",
-    },
-    {
-      amount: "234",
-      category: "Entertainment",
-      date: "November 14, 2024",
-      id: 4,
-      title: "four",
-    },
-    {
-      amount: "234",
-      category: "Entertainment",
-      date: "November 14, 2024",
-      id: 5,
-      title: "five",
-    },
-    {
-      amount: "234",
-      category: "Entertainment",
-      date: "November 14, 2024",
-      id: 6,
-      title: "six",
-    },
-    {
-      amount: "234",
-      category: "Entertainment",
-      date: "November 14, 2024",
-      id: 7,
-      title: "seven",
-    },
-    {
-      amount: "234",
-      category: "Entertainment",
-      date: "November 14, 2024",
-      id: 8,
-      title: "eight",
-    }
+    // {
+    //   amount: "234",
+    //   category: "Entertainment",
+    //   date: "November 14, 2024",
+    //   id: 1,
+    //   title: "one",
+    // },
+    // {
+    //   amount: "234",
+    //   category: "Entertainment",
+    //   date: "November 14, 2024",
+    //   id: 2,
+    //   title: "two",
+    // },
+    // {
+    //   amount: "234",
+    //   category: "Entertainment",
+    //   date: "November 14, 2024",
+    //   id: 3,
+    //   title: "three",
+    // },
+    // {
+    //   amount: "234",
+    //   category: "Entertainment",
+    //   date: "November 14, 2024",
+    //   id: 4,
+    //   title: "four",
+    // },
+    // {
+    //   amount: "234",
+    //   category: "Entertainment",
+    //   date: "November 14, 2024",
+    //   id: 5,
+    //   title: "five",
+    // },
+    // {
+    //   amount: "234",
+    //   category: "Entertainment",
+    //   date: "November 14, 2024",
+    //   id: 6,
+    //   title: "six",
+    // },
+    // {
+    //   amount: "234",
+    //   category: "Entertainment",
+    //   date: "November 14, 2024",
+    //   id: 7,
+    //   title: "seven",
+    // },
+    // {
+    //   amount: "234",
+    //   category: "Entertainment",
+    //   date: "November 14, 2024",
+    //   id: 8,
+    //   title: "eight",
+    // }
   ]);
   const [id, setId] = useState(1);
 
