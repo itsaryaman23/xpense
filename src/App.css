@@ -1,0 +1,16 @@
+.App{
+  background-color: rgb(59,59,59);
+  min-height: 100vh;
+  color: rgb(252,252,252);
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+.title{
+  margin-top: 0;
+  padding: 0.5% 1%;
+  font-family: Ubuntu;
+}

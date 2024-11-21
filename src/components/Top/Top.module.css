@@ -1,0 +1,55 @@
+.card{
+    width: 417px;
+    height: 345px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    border-radius: 15px;
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+.bar{
+    height: 21px;
+    
+    background-color: #8784D2;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.textBox{
+    width: 80px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+    position: relative;
+    bottom: 5px;
+}
+.barCont{
+    height: 21px;
+    width: 304px;
+    display: inline-block;
+}
+.heading{
+    font-weight: 700;
+    font-style: italic;
+    font-family: Ubuntu;
+    font-size: 28px;
+    margin-bottom: 10px;
+
+}
+.entBar{
+    width: 90%;
+}
+.foodBar{
+    width: 50%;
+}
+.travel{
+    width: 20%
+}
+

@@ -1,0 +1,95 @@
+.cont {
+  height: 269px;
+  width: 1211px;
+  background-color: rgb(96, 96, 96);
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pieCont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrap {
+  width: 1211px;
+  margin: auto;
+}
+.balance {
+  color: #9dff5b;
+  font-weight: 700;
+}
+.expense {
+  font-weight: 700;
+  color: #f4bb4a;
+}
+
+.card {
+  height: 181px;
+  width: 355px;
+  background-color: rgb(155, 155, 155);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  margin: 0;
+  font-family: Ubuntu;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.cardHeading {
+  font-size: 30px;
+  font-family: Ubuntu;
+  font-weight: 400;
+}
+
+.cardBtn {
+  width: 167.65px;
+  height: 38px;
+  border-radius: 15px;
+  color: white;
+  font-family: Ubuntu;
+  font-weight: 700;
+  border: none;
+}
+.incomeBtn {
+  background: linear-gradient(90deg, #b5dc52 0%, #89e148 100%);
+}
+.expenseBtn {
+  background: linear-gradient(90deg, #ff9595 0%, #ff4747 80%, #ff3838 100%);
+}
+.foodInd {
+  width: 26px;
+  height: 8px;
+  background: #a000ff;
+  display: inline-block;
+}
+.entertainmentInd {
+  width: 26px;
+  height: 8px;
+  display: inline-block;
+  background: #ff9304;
+  margin-left: 10px;
+}
+.travelInd {
+  width: 26px;
+  height: 8px;
+  display: inline-block;
+  background: #fde006;
+  margin-left: 10px;
+}
+.catTitle{
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 5px;
+
+}
+

@@ -1,0 +1,59 @@
+.cont {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(256, 256, 256, 0.7);
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  font-family: Ubuntu;
+}
+.card {
+  width: 538px;
+  height: 335px;
+  background-color: rgb(237, 237, 237);
+  border-radius: 10px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+
+.heading {
+  color: rgb(28, 28, 28);
+  margin-left: 10px;
+}
+.canBtn {
+  cursor: pointer;
+  background-color: rgb(227, 227, 227);
+  color: black !important;
+  width: 112px !important;
+}
+
+.field {
+  width: 223px;
+  height: 51px;
+  margin: 10px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #919191;
+  padding: 5px 10px;
+}
+.inputs {
+  background: linear-gradient(0deg, #fbfbfb, #fbfbfb),
+    linear-gradient(0deg, #d9d9d9, #d9d9d9), #d9d9d9;
+}
+.subBtn {
+  background-color: rgb(235, 189, 95);
+  color: white;
+  cursor: pointer;
+}
+
+/* identical to box height */

@@ -1,0 +1,159 @@
+.cont {
+  width: 738px;
+  height: 354px;
+  border-radius: 15px;
+  background-color: white;
+  position: relative;
+  box-sizing: border-box;
+  padding: 20px 20px;
+  
+}
+.heading {
+  font-weight: 700;
+  font-style: italic;
+  font-family: Ubuntu;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.btnCont {
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  bottom: 15px;
+  /* left: 50%; */
+  transform: translate(-50%);
+  left: 50%;
+}
+
+.lArrow {
+  width: 37px;
+  height: 37px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  justify-items: center;
+  align-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+.counter {
+  cursor: default;
+  text-align: center;
+  justify-items: center;
+  align-content: center;
+  /* Rectangle 72 */
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: 400;
+  width: 37px;
+  height: 37px;
+
+  background: #43967b;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.rArrow {
+  justify-items: center;
+  align-content: center;
+  text-align: center;
+  width: 37px;
+  height: 37px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  cursor: pointer;
+}
+.list {
+  color: black;
+}
+.btns {
+  display: flex;
+  gap: 10px;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.dBtn {
+  width: 37px;
+  height: 37px;
+
+  background: #ff3e3e;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.editBtn {
+  /* Rectangle 74 */
+
+  width: 37px;
+  height: 37px;
+
+  background: #f4bb4a;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.listCont{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px #9B9B9B solid;
+    margin-top: 10px;
+}
+.amount{
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 16px;
+    color: #F4BB4A;
+}
+.title{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 0;
+
+}
+.dateInList{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #9B9B9B;
+    margin-top: 0;
+}
+.icon{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    align-content: center;
+    text-align: center;
+
+
+}
+
+.lCont{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.addEx{
+  color: lightgray;
+  font-style: italic;
+  font-weight: 500;
+
+}
+.addExCont{
+  width: 734px;
+  height: 345px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
